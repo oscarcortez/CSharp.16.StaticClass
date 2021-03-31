@@ -23,6 +23,7 @@ public class Calculadora
 como se ve se puede usar como estatico y tambien como clase normal
 ```csharp
 Console.WriteLine($"Calculadora.suma: {Calculadora.Suma(4,5) }");
+
 Calculadora c = new Calculadora();
 Console.WriteLine($"calculadora instanciada: {c.Mult(2, 4)}");
 ```
